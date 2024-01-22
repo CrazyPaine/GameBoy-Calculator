@@ -1,4 +1,4 @@
-# GameBoy Color Calculator :video_game:
+# GameBoy Color Calculator 🖩
 
 
 ## Overview
