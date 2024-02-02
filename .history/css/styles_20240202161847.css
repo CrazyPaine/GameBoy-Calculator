@@ -33,9 +33,9 @@ body {
     align-items:center;
     justify-content: center;
     padding: 24px;
-    width: 97%;
-    height: 56%;
-    margin:auto;
+    width: 80%;
+    width:auto;
+    margin:auto
 }
 
 .calculator {

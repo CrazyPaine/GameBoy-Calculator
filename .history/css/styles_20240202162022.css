@@ -32,10 +32,10 @@ body {
     display: flex;
     align-items:center;
     justify-content: center;
-    padding: 24px;
+    padding: 25px;
     width: 97%;
-    height: 56%;
-    margin:auto;
+    height:auto;
+    margin:auto
 }
 
 .calculator {

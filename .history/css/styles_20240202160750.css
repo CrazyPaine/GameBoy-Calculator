@@ -31,11 +31,9 @@ body {
     border-radius: 10px;
     display: flex;
     align-items:center;
-    justify-content: center;
     padding: 24px;
-    width: 97%;
-    height: 56%;
-    margin:auto;
+    width:fit-content;
+    height:fit-content;
 }
 
 .calculator {
@@ -48,7 +46,7 @@ body {
     backdrop-filter: blur(2.7px);
     -webkit-backdrop-filter: blur(2.7px);
     height: fit-content;
-    margin: 20px auto;
+    width:fit-content;
 }
 
 .button {
@@ -58,7 +56,6 @@ body {
     padding: 18px;
     min-height: fit-content;
     max-width: fit-content;
-    margin: 2px;
 }
 
 
