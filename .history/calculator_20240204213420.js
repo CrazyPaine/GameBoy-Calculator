@@ -24,8 +24,8 @@ function calculateResult() {
             throw new Error('Invalid result');
         }
 
-        // No need to save to history if you don't want it
-        // saveToHistory(inputExpression, result);
+        // Save the expression and result to the history log
+        saveToHistory(inputExpression, result);
 
         updateDisplay(result);
     } catch (error) {
@@ -35,14 +35,15 @@ function calculateResult() {
 
 function evaluateExpression(expression) {
     try {
-        // Replace this with your own expression evaluation logic or library
-        // For demonstration purposes, we are using eval here, but it's not recommended for production
-        const result = eval(expression);
+        // Implement your own expression evaluation logic here
+        const result = math.evaluate(expression); // Assuming you use a math library or your custom evaluator
         return result;
     } catch (error) {
         throw new Error('Invalid expression');
     }
 }
+
+
 
 function isValidExpression(expression) {
     return /^[0-9+\-*/().\s]+$/.test(expression);
@@ -56,8 +57,4 @@ function endsWithOperator(expression) {
     const operators = ['+', '-', '*', '/'];
     const lastChar = expression.trim().slice(-1);
     return operators.includes(lastChar);
-}
-
-function updateDisplay(value) {
-    document.getElementById('display').value = value;
 }

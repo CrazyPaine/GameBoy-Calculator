@@ -24,8 +24,9 @@ function calculateResult() {
             throw new Error('Invalid result');
         }
 
-        // No need to save to history if you don't want it
-        // saveToHistory(inputExpression, result);
+        // Save the expression and result to the history log
+        // Assuming you have a function named 'saveToHistory'
+        saveToHistory(inputExpression, result);
 
         updateDisplay(result);
     } catch (error) {
