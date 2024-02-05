@@ -57,30 +57,14 @@ body {
     margin: 20px auto;
 }
 
-button {
+.button {
+    background-color: #20212e;
     border-radius: 10px;
-    color: #F8F9FA;
+    color: #808080;
     padding: 18px;
     min-height: fit-content;
     max-width: fit-content;
     margin: 2px;
-}
-
-.btn-1 {
-    background: #220780;
-}
-
-.btn-2 {
-    background: #615fed;
-}
-
-.btn-3 {
-    background: #ffba5a;
-}
-
-.btn-4 {
-    background: #fffab2;
-    color: black;
 }
 
 

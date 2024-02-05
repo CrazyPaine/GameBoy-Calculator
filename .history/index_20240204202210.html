@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="calculator.js"></script>
+    <title>GameBoy Calculator</title>
+</head>
+
+<body>
+    <h1 class = "Intro">Hello and welcome to the wonderful Gameboy Calulator! &#128578;</h1>
+    <br>
+    <div class = 'calculator'>
+        <input type="text"id="display" readonly>
+       <br>
+            <button onclick="appendToDisplay('1')" class = "button btn-1">1</button>
+            <button onclick="appendToDisplay('2')" class = "button btn-1">2</button>
+            <button onclick="appendToDisplay('3')" class = "button btn-1">3</button>
+            <button onclick="appendToDisplay('+')" class = "button btn-1">+</button>
+            <br>
+            <button onclick="appendToDisplay('4')" class = "button btn-2">4</button>
+            <button onclick="appendToDisplay('5')" class = "button btn-2">5</button>
+            <button onclick="appendToDisplay('6')" class = "button btn-2">6</button>
+            <button onclick="appendToDisplay('-')" class = "button btn-2">-</button>
+            <br>
+            <button onclick="appendToDisplay('7')" class = "button btn-3">7</button>
+            <button onclick="appendToDisplay('8')" class = "button btn-3">8</button>
+            <button onclick="appendToDisplay('9')" class = "button btn-3">9</button>
+            <button onclick="appendToDisplay('*')" class = "button btn-3">*</button>
+            <br>
+            <button onclick="appendToDisplay('0')" class = "button btn-4">0</button>
+            <button onclick="clearDisplay()" class = "button btn-4">C</button>
+            <button onclick="calculateResult()" class = "button btn-4">=</button>
+            <button onclick="appendToDisplay('/')" class = "button btn-4">/</button>
+            <br>
+
+    </div>
+</body>
+</html>

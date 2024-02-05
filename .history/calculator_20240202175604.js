@@ -2,6 +2,17 @@
 ! Hey there welcome to my Calculator. This is where I will be doing my calculations on here.
 */
 
+// Initialize an array to store the history
+const historyLog = [];
+
+function appendToDisplay(value) {
+    document.getElementById('display').value += value;
+}
+
+function clearDisplay() {
+    document.getElementById('display').value = '';
+}
+
 function calculateResult() {
     try {
         const inputExpression = document.getElementById('display').value;
@@ -54,4 +65,20 @@ function endsWithOperator(expression) {
 
     return operators.includes(lastChar);
 }
+
+// Function to save the expression and result to the history log
+function saveToHistory(expression, result) {
+    const historyEntry = {
+        expression: expression,
+        result: result,
+    };
+    historyLog.push(historyEntry);
+}
+
+// Function to display the history log in a new window
+function displayHistory() {
+    const historyWindow = window.open('', 'History Log', 'width=400,height=400,scrollbars=yes,resizable=yes');
+
+    // You can customize how you want to display the history log
+    history
 

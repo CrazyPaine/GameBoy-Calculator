@@ -57,7 +57,7 @@ body {
     margin: 20px auto;
 }
 
-button {
+.button {
     border-radius: 10px;
     color: #F8F9FA;
     padding: 18px;
@@ -66,21 +66,20 @@ button {
     margin: 2px;
 }
 
-.btn-1 {
+.button btn-1 {
     background: #220780;
 }
 
-.btn-2 {
+.button btn-2 {
     background: #615fed;
 }
 
-.btn-3 {
+.button btn-3 {
     background: #ffba5a;
 }
 
-.btn-4 {
+.button btn-4 {
     background: #fffab2;
-    color: black;
 }
 
 
