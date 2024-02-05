@@ -33,16 +33,14 @@ body {
 }
 
 #display{
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     align-items:center;
     justify-content: center;
-    padding: 30px;
+    padding: 24px;
     width: 97%;
     height: 56%;
     margin:auto;
-    margin-top: 5px;
-    margin-bottom: -10px
 }
 
 .calculator {
